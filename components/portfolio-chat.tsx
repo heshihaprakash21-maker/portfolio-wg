@@ -1,5 +1,5 @@
-const googleFormUrl = "https://forms.gle/7d3pzLU15JGQaJxg9"
-const googleFormOpenUrl = "https://forms.gle/7d3pzLU15JGQaJxg9"
+const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSftix1QWE4SNIH2TxF9vp4bcXCQe_fX1CFS8vrop5mAAbHpdA/viewform"
+const googleFormOpenUrl = "https://docs.google.com/forms/d/e/1FAIpQLSftix1QWE4SNIH2TxF9vp4bcXCQe_fX1CFS8vrop5mAAbHpdA/viewform?usp=header"
 
 export function PortfolioChat() {
   return (
@@ -12,7 +12,7 @@ export function PortfolioChat() {
         <a href={googleFormOpenUrl} target="_blank" rel="noreferrer" className="text-xs font-medium text-accent underline underline-offset-4">Open form</a>
       </div>
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSe9FhYx6C8S4UqkQ2aE1vLxZ0m9Qn7rT5uP3wK6jH8iG4fD2/viewform?embedded=true"
+        src={`${googleFormUrl}?embedded=true`}
         title="Contact Heshiha Thangamani"
         className="min-h-0 flex-1 border-0 bg-paper"
         loading="lazy"
