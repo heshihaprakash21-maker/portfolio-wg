@@ -1,36 +1,13 @@
-// Edit this file to personalize your portfolio and the AI assistant's knowledge.
 export const persona = {
-  name: "Alex Rivera",
-  role: "Full-Stack Engineer",
-  location: "San Francisco, CA",
-  email: "hello@alexrivera.dev",
-  summary:
-    "I build fast, accessible web applications with a focus on delightful user experiences. I care deeply about clean architecture, performance, and shipping products that people love to use.",
-  skills: [
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "PostgreSQL",
-    "Tailwind CSS",
-    "AI / LLM integration",
-    "System design",
-  ],
+  name: "Heshiha Thangamani",
+  role: "SEO Content Writer & SEO Analyst",
+  location: "Remote / India",
+  email: "hello@heshiha.com",
+  summary: "I help thoughtful businesses turn what they know into content that gets found, gets understood, and gets remembered.",
+  skills: ["SEO content strategy", "Keyword research", "Technical SEO", "Content audits", "Thought leadership", "On-page SEO", "Analytics & reporting", "Editorial planning"],
   projects: [
-    {
-      name: "Lumen Analytics",
-      description: "A real-time product analytics dashboard used by 200+ teams to track user behavior.",
-      tech: ["Next.js", "PostgreSQL", "WebSockets"],
-    },
-    {
-      name: "Draft AI",
-      description: "An AI writing assistant that helps teams turn rough notes into polished documents.",
-      tech: ["AI SDK", "React", "Edge Functions"],
-    },
-    {
-      name: "Orbit Scheduler",
-      description: "A collaborative calendar app with smart availability matching across time zones.",
-      tech: ["TypeScript", "Node.js", "Redis"],
-    },
+    { name: "Technical SEO audit", description: "A prioritized audit that connected crawl health, content gaps, and business goals into a clear roadmap.", tech: ["Technical SEO", "GA4", "Search Console"] },
+    { name: "B2B content system", description: "A search-led editorial system built around pillar pages, useful briefs, and a publishing rhythm designed to compound.", tech: ["Strategy", "Content", "Search intent"] },
+    { name: "Thought leadership program", description: "A founder-led content program that translated specialist experience into a voice people could remember.", tech: ["Interviews", "Editorial", "LinkedIn"] },
   ],
 } as const

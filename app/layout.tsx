@@ -1,10 +1,16 @@
 import { Analytics } from '@vercel/analytics/next'
+import { Inter, JetBrains_Mono, Newsreader } from 'next/font/google'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const newsreader = Newsreader({ subsets: ['latin'], variable: '--font-newsreader' })
+const jetbrains = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains' })
+
 export const metadata: Metadata = {
-  title: 'Alex Rivera — Full-Stack Engineer',
-  description: 'Portfolio of Alex Rivera, a full-stack engineer. Ask the AI assistant anything about my work and experience.',
+  title: 'Heshiha Thangamani — SEO Content Writer & Analyst',
+  description: 'Portfolio of Heshiha Thangamani, an SEO content writer and SEO analyst helping thoughtful brands become easier to find and harder to forget.',
+  keywords: ['SEO content writer', 'SEO analyst', 'content strategy', 'technical SEO'], 
   generator: 'v0.app',
   icons: {
     icon: [
@@ -39,8 +45,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-background">
-
+    <html lang="en" className={`${inter.variable} ${newsreader.variable} ${jetbrains.variable}`}>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
