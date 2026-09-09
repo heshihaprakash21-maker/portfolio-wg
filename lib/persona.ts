@@ -2,7 +2,7 @@ export const persona = {
   name: "Heshiha Thangamani",
   role: "SEO Content Writer & SEO Analyst",
   location: "Remote / India",
-  email: "hello@heshiha.com",
+  email: "heshihaprakash21@gmail.com",
   summary: "I help thoughtful businesses turn what they know into content that gets found, gets understood, and gets remembered.",
   skills: ["SEO content strategy", "Keyword research", "Technical SEO", "Content audits", "Thought leadership", "On-page SEO", "Analytics & reporting", "Editorial planning"],
   projects: [
