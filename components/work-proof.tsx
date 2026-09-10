@@ -43,7 +43,7 @@ export function WorkProof() {
       </div>
       <details className="group">
         <summary className="mx-auto mt-8 flex cursor-pointer list-none items-center justify-center gap-2 rounded-full border border-paper/30 px-5 py-3 text-sm text-paper transition-colors hover:border-accent hover:bg-accent [&::-webkit-details-marker]:hidden">
-          View more proof <span className="transition-transform group-open:rotate-45">+</span>
+          View More <span className="transition-transform group-open:rotate-45">+</span>
         </summary>
         <div className="mt-8 grid gap-px bg-paper/20 md:grid-cols-2">
           {proof.slice(3).map((item) => <ProofCard key={item.href} item={item} />)}
