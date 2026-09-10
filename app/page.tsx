@@ -2,17 +2,12 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowUpRight, Check, ChevronDown, Mail, Menu, Quote } from "lucide-react"
 import { persona } from "@/lib/persona"
+import { WorkProof } from "@/components/work-proof"
 
 const services = [
   { number: "01", title: "SEO content strategy", text: "A clear editorial direction built around search intent, audience needs, and the questions your business is best placed to answer." },
   { number: "02", title: "Content that earns attention", text: "Long-form pages, thought leadership, and conversion copy that make complex ideas feel useful, human, and easy to act on." },
   { number: "03", title: "Technical SEO analysis", text: "Practical audits and prioritized recommendations that help search engines understand your site and readers find their way through it." },
-]
-
-const projects = [
-  { tag: "B2B / SaaS", title: "Making a technical product feel obvious", text: "A search-led content system for a workflow platform: positioning, pillar pages, and a publishing rhythm designed to compound." },
-  { tag: "Professional services", title: "Turning expertise into a point of view", text: "A founder-led thought leadership program that translated years of specialist experience into a voice people could remember." },
-  { tag: "Research / Strategy", title: "Finding the signal in the data", text: "A technical and content audit that surfaced the fastest opportunities, connected them to business goals, and gave a team a way forward." },
 ]
 
 const process = ["Listen for the real question", "Find the search opportunity", "Shape the clearest answer", "Measure what gets better"]
@@ -44,7 +39,7 @@ export default function Page() {
 
       <section id="services" className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-36"><div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]"><div><p className="eyebrow">What I do</p><h2 className="mt-5 max-w-sm font-serif text-5xl leading-[0.98] tracking-tight text-ink lg:text-6xl">Clarity is a competitive advantage.</h2></div><div className="divide-y divide-line">{services.map((service) => <article key={service.number} className="grid gap-5 py-7 first:pt-0 md:grid-cols-[4rem_1fr]"><span className="font-mono text-xs text-accent">{service.number}</span><div><h3 className="font-serif text-3xl text-ink">{service.title}</h3><p className="mt-3 max-w-xl leading-7 text-ink-muted">{service.text}</p></div></article>)}</div></div></section>
 
-      <section id="work" className="bg-ink px-6 py-24 text-paper lg:px-10 lg:py-36"><div className="mx-auto max-w-7xl"><div className="flex flex-col justify-between gap-8 md:flex-row md:items-end"><div><p className="eyebrow text-paper/60">Selected work</p><h2 className="mt-5 max-w-2xl font-serif text-5xl leading-none tracking-tight lg:text-7xl">The work is the proof.</h2></div><p className="max-w-xs leading-7 text-paper/60">A few ways I&apos;ve helped brands move from “we should” to “we did.”</p></div><div className="mt-16 grid gap-px bg-paper/20 md:grid-cols-3">{projects.map((project, index) => <article key={project.title} className="group flex min-h-[24rem] flex-col justify-between bg-ink p-7 transition-colors hover:bg-ink-soft"><div><p className="eyebrow text-accent">{project.tag}</p><h3 className="mt-16 font-serif text-3xl leading-tight">{project.title}</h3></div><div><p className="leading-7 text-paper/60">{project.text}</p><span className="mt-6 inline-flex size-10 items-center justify-center rounded-full border border-paper/30 transition-colors group-hover:border-accent group-hover:bg-accent"><ArrowUpRight className="size-4" /></span></div></article>)}</div></div></section>
+      <section id="work" className="bg-ink px-6 py-24 text-paper lg:px-10 lg:py-36"><div className="mx-auto max-w-7xl"><div className="flex flex-col justify-between gap-8 md:flex-row md:items-end"><div><p className="eyebrow text-paper/60">Selected work</p><h2 className="mt-5 max-w-2xl font-serif text-5xl leading-none tracking-tight lg:text-7xl">The work is the proof.</h2></div><p className="max-w-xs leading-7 text-paper/60">A few ways I&apos;ve helped brands move from “we should” to “we did.”</p></div><WorkProof /></div></section>
 
       <section id="about" className="mx-auto grid max-w-7xl gap-14 px-6 py-24 lg:grid-cols-[0.8fr_1.2fr] lg:px-10 lg:py-36"><div><p className="eyebrow">A little about me</p><p className="mt-6 font-serif text-4xl leading-tight text-ink">I like the intersection of sharp thinking and good sentences.</p></div><div className="max-w-2xl"><p className="text-2xl leading-relaxed text-ink">As an SEO content writer and analyst, I&apos;m interested in the space between what people search for and what they actually need.</p><p className="mt-6 leading-8 text-ink-muted">That means asking better questions, looking closely at the data, and making room for a point of view. I bring an editorial eye to the technical side of search — and a practical, measurable mindset to the creative side of content.</p><div className="mt-9 grid gap-4 sm:grid-cols-2">{["Search intent, not just search volume", "Content systems that compound", "Clear reporting and next steps", "A collaborative, calm process"].map((item) => <div key={item} className="flex items-center gap-3 border-t border-line pt-4 text-sm text-ink"><Check className="size-4 text-accent" />{item}</div>)}</div></div></section>
 
