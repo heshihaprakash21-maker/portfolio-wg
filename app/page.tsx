@@ -31,7 +31,8 @@ export default function Page() {
         <div className="hero-overlay absolute inset-0" />
         <div className="relative z-10 mx-auto w-full max-w-7xl">
           <p className="eyebrow mb-7 text-paper/75"><span className="mr-2 inline-block size-2 rounded-full bg-accent" />SEO content writer &amp; analyst</p>
-          <h1 className="max-w-3xl text-left font-sans text-3xl font-light leading-[1.08] tracking-[-0.035em] text-paper sm:text-4xl lg:text-5xl">I help businesses turn expertise into content that gets found, understood, and remembered.</h1>
+          <h1 className="max-w-5xl text-left font-sans text-4xl font-light leading-[1.08] tracking-[-0.04em] text-paper sm:text-5xl lg:text-6xl">I turn your expertise into content that gets found, understood, and remembered.</h1>
+          <p className="mt-7 max-w-3xl text-base leading-7 text-paper/80 sm:text-lg sm:leading-8">SEO strategy, editorial writing, and technical audits — built around what your audience is searching for and what your business needs them to find.</p>
         </div>
       </section>
 
