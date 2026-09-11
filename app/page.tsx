@@ -26,7 +26,7 @@ export default function Page() {
         <Link href="#contact" className="md:hidden" aria-label="Go to contact"><Menu className="size-5" /></Link>
       </nav>
 
-      <section id="top" className="hero-section relative flex min-h-[calc(100svh-150px)] items-end overflow-hidden px-6 pb-14 pt-28 lg:px-10 lg:pb-20">
+      <section id="top" className="hero-section relative flex min-h-[calc(100svh-130px)] items-end overflow-hidden px-6 pb-14 pt-28 lg:px-10 lg:pb-20">
         <Image src="/editorial-seo.png" alt="Editorial workspace with content notes and analytics charts" fill className="hero-image object-cover grayscale" priority sizes="100vw" />
         <div className="hero-overlay absolute inset-0" />
         <div className="relative z-10 mx-auto w-full max-w-7xl">
