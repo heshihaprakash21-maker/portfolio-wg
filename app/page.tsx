@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <main>
       <nav className="site-nav mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-        <Link href="#top" className="font-serif text-xl font-semibold tracking-tight">HT<span className="text-accent">.</span></Link>
+        <Link href="#top" aria-label="Heshiha Consultancy home"><Image src="/logo-lockup.png" alt="heshi consultancy" width={150} height={50} className="h-auto w-32 brightness-0 invert sm:w-36" /></Link>
         <div className="hidden items-center gap-8 text-sm text-ink-muted md:flex">
           <Link href="#work" className="transition-colors hover:text-ink">Work</Link>
           <Link href="#services" className="transition-colors hover:text-ink">Services</Link>
