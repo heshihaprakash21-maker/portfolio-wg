@@ -26,13 +26,15 @@ export default function Page() {
         <Link href="#contact" className="md:hidden" aria-label="Go to contact"><Menu className="size-5" /></Link>
       </nav>
 
-      <section id="top" className="hero-section relative flex min-h-[calc(100svh-100px)] items-end overflow-hidden px-6 pb-16 pt-28 lg:px-10 lg:pb-16">
+      <section id="top" className="hero-section relative isolate flex min-h-[88vh] items-center overflow-hidden px-6 py-24 lg:px-10">
         <Image src="/editorial-seo.png" alt="Editorial workspace with content notes and analytics charts" fill className="hero-image object-cover grayscale" priority sizes="100vw" />
         <div className="hero-overlay absolute inset-0" />
         <div className="relative z-10 mx-auto w-full max-w-7xl">
-          <p className="eyebrow mb-7 font-bold text-paper/75"><span className="mr-2 inline-block size-2 rounded-full bg-accent" />SEO content writer &amp; analyst</p>
-          <h1 className="max-w-5xl text-left font-sans text-4xl font-light leading-[1.08] tracking-[-0.04em] text-paper sm:text-5xl lg:text-[3.75rem]">I turn your expertise into content that gets found, understood, and remembered.</h1>
-          <p className="mt-7 max-w-3xl text-base leading-7 text-paper/80 sm:text-lg sm:leading-8">SEO strategy, editorial writing, and technical audits — built around what your audience is searching for and what your business needs them to find.</p>
+          <p className="eyebrow inline-flex items-center gap-2 rounded-full border border-paper/20 bg-paper/5 px-3 py-1 text-paper/80 backdrop-blur"><span className="inline-block size-2 animate-pulse rounded-full bg-accent" />SEO content writer &amp; analyst</p>
+          <h1 className="mt-6 max-w-5xl text-left font-sans text-4xl font-medium leading-[1.05] tracking-[-0.04em] text-paper sm:text-5xl lg:text-7xl">I turn your expertise into content that gets <em className="font-serif font-normal italic text-accent-soft">found, understood, and remembered.</em></h1>
+          <p className="mt-6 max-w-2xl text-base leading-7 text-paper/80 sm:text-lg sm:leading-8">SEO strategy, editorial writing, and technical audits — built around what your audience is searching for and what your business needs them to find.</p>
+          <div className="mt-8 flex flex-wrap gap-3"><Link href="#contact" className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-medium text-paper transition-colors hover:bg-accent-soft hover:text-ink">Request a quote <ArrowUpRight className="size-4" /></Link><Link href="#work" className="inline-flex items-center rounded-full border border-paper/30 px-6 py-3 font-medium text-paper transition-colors hover:bg-paper/10">See my work</Link></div>
+          <p className="mt-10 text-sm text-paper/55">Written for <span className="text-paper/85">ClarityTechLabs · Hello Ortho · Central Coast Orthodontics · Tulsi Silks · Trident Glass</span></p>
         </div>
       </section>
 
