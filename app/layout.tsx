@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   generator: 'v0.app',
   icons: {
-    icon: '/icon-512.png',
-    apple: '/icon-512.png',
+    icon: '/heshi-favicon.svg',
+    apple: '/heshi-favicon.svg',
   },
 }
 
