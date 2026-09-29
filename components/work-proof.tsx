@@ -6,18 +6,21 @@ const proof = [
   {
     tag: "B2B / CLOUD TECHNOLOGY",
     title: "Making cloud migration decisions easier to understand",
+    imageAlt: "Blog on AWS vs GCP cloud migration for ClarityTechLabs",
     text: "A search-led explainer comparing AWS and GCP, translating a complex infrastructure decision into clear guidance for growing technology teams.",
     href: "https://claritytechlabs.com/blogs/cloud-migration-aws-vs-gcp-which-one-is-a-good-choice",
   },
   {
     tag: "HEALTHCARE / ORTHODONTICS",
     title: "Turning treatment costs into a clearer next step",
+    imageAlt: "Invisalign cost with vs without insurance article for Hello Ortho",
     text: "A patient-first Invisalign guide that answers the questions people ask before booking: insurance, pricing, treatment complexity, and payment options.",
     href: "https://helloortho.com/invisalign-cost-with-vs-without-insurance",
   },
   {
     tag: "HEALTHCARE / ORTHODONTICS",
     title: "Answering the questions patients are afraid to ask",
+    imageAlt: "Article on which stage of braces hurts most, Central Coast Orthodontics",
     text: "An empathetic braces guide built around search intent, helping patients understand discomfort, treatment stages, and what to expect next.",
     href: "https://centralcoastorthodontics.com/blogs/what-stage-of-braces-hurts-the-most",
   },
