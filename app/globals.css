@@ -43,12 +43,12 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(
 .site-nav { position: absolute; inset: 0 0 auto; z-index: 20; border-bottom: 1px solid color-mix(in oklab, var(--paper) 45%, transparent); color: var(--paper); }
 .site-nav .text-ink-muted { color: color-mix(in oklab, var(--paper) 82%, transparent); }
 .site-nav .bg-ink { background: var(--paper); color: var(--ink); }
-.hero-section { min-height: 88vh; }
+.hero-section { height: calc(100svh - 90px); min-height: 0; }
 .hero-image { object-position: center; filter: grayscale(1) contrast(0.92) blur(2px); transform: scale(1.05); }
 .hero-overlay { background: linear-gradient(90deg, color-mix(in oklab, var(--ink) 90%, transparent) 0%, color-mix(in oklab, var(--ink) 70%, transparent) 48%, color-mix(in oklab, var(--ink) 20%, transparent) 100%); }
 @media (max-width: 767px) {
   .site-nav { padding-top: 1rem; padding-bottom: 1rem; }
-  .hero-section { min-height: 88vh; }
+  .hero-section { height: calc(100svh - 90px); min-height: 0; }
   .hero-image { object-position: 58% center; }
   .hero-overlay { background: linear-gradient(180deg, color-mix(in oklab, var(--ink) 30%, transparent) 0%, color-mix(in oklab, var(--ink) 62%, transparent) 48%, color-mix(in oklab, var(--ink) 88%, transparent) 100%); }
 }
