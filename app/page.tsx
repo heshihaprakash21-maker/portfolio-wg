@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <main>
       <nav className="site-nav mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-        <Link href="#top" aria-label="Heshiha Consultancy home"><Image src="/heshi-logo.svg" alt="heshi consultancy" width={197} height={70} className="h-auto w-48 sm:w-52" /></Link>
+        <Link href="#top" aria-label="Heshiha Consultancy home"><Image src="/heshi-logo.svg" alt="heshi consultancy" width={197} height={70} className="h-auto w-36 sm:w-40" /></Link>
         <div className="hidden items-center gap-8 text-sm text-ink-muted md:flex">
           <Link href="#work" className="transition-colors hover:text-ink">Work</Link>
           <Link href="#services" className="transition-colors hover:text-ink">Services</Link>
@@ -26,7 +26,7 @@ export default function Page() {
         <Link href="#contact" className="md:hidden" aria-label="Go to contact"><Menu className="size-5" /></Link>
       </nav>
 
-      <section id="top" className="hero-section relative isolate flex min-h-[88vh] items-center overflow-hidden px-6 py-24 lg:px-10">
+      <section id="top" className="hero-section relative isolate flex min-h-[88vh] items-start overflow-hidden px-6 pb-24 pt-24 lg:px-10 lg:pt-28">
         <Image src="/editorial-seo.png" alt="Editorial workspace with content notes and analytics charts" fill className="hero-image object-cover grayscale" priority sizes="100vw" />
         <div className="hero-overlay absolute inset-0" />
         <div className="relative z-10 mx-auto w-full max-w-7xl">
